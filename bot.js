@@ -7,7 +7,6 @@ const client = new commando.CommandoClient({
 });
 client.login(process.env.TOKEN);
 client.registry.registerGroups([
-    ['Autoinv', 'Autoinv commands'],
     ['mod', 'mod commands'],
     ['misc', 'misc commands'],
     ['roles', 'roles commands'],
